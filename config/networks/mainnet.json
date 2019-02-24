@@ -1,15 +1,15 @@
 {
-  "id": "ark.mainnet",
-  "name": "ARK Mainnet",
-  "title": "ARK Mainnet",
-  "server": "https://explorer.ark.io:8443",
-  "description": "The ARK Mainnet should be chosen in most cases.",
-  "imagePath": "networks/ark.png",
-  "apiVersion": 2,
+  "id": "ripaex.mainnet",
+  "name": "RIPAEX Mainnet",
+  "title": "RIPAEX Mainnet",
+  "server": "https://api.ripaex.io/",
+  "description": "RIPAEX Mainnet should be chosen in most cases.",
+  "imagePath": "networks/ripaex.png",
+  "apiVersion": 1,
   "slip44": "111",
   "market": {
-    "enabled": true,
-    "ticker": "ARK"
+    "enabled": false,
+    "ticker": "ripaex"
   },
   "feeStatistics": [
     {
@@ -46,35 +46,18 @@
     }
   ],
   "constants": {
-    "activeDelegates": 51,
+    "activeDelegates": 101,
     "epoch": "2017-03-21T13:00:00.000Z"
   },
-  "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
-  "explorer": "https://explorer.ark.io",
-  "token": "ARK",
-  "subunit": "arktoshi",
-  "symbol": "Ѧ",
+  "nethash": "bee1634649fc6a759e5fdb8f3c4bcb4b5189c1f2a6b48284a6445f3f09db844e",
+  "explorer": "https://explorer.ripaex.io",
+  "token": "XPX",
+  "subunit": "ripaextoshi",
+  "symbol": "₱",
   "fractionDigits": 8,
-  "version": 23,
-  "wif": 170,
+  "version": "0x37",
+  "wif": "0xaa",
   "knownWallets": {
-    "AYCTHSZionfGoQsRnv5gECEuFWcZXS38gs": "Ark Bounty",
-    "AZmQJ2P9xg5j6VPZWjcTzWDD4w7Qww2KGX": "Ark GitHub Bounty",
-    "AdTyTzaXPtj1J1DzTgVksa9NYdUuXCRbm1": "Ark Shield II",
-    "ALgvTAoz5Vi9easHqBK6aEMKatHb4beCXm": "Ark Shield I",
-    "AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv": "Ark Team",
-    "AWkBFnqvCF4jhqPSdE2HBPJiwaf67tgfGR": "Ark Community Fund",
-    "ANkHGk5uZqNrKFNY5jtd4A88zzFR3LnJbe": "Ark Hot Wallet",
-    "AFrPtEmzu6wdVpa2CnRDEKGQQMWgq8nE9V": "Binance",
-    "AQkyi31gUbLuFp7ArgH9hUCewg22TkxWpk": "Binance Cold Wallet",
-    "AdS7WvzqusoP759qRo6HDmUz2L34u4fMHz": "Binance Cold Wallet II",
-    "Aakg29vVhQhJ5nrsAHysTUqkTBVfmgBSXU": "Binance Cold Wallet III",
-    "AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK": "Bittrex",
-    "AdA5THjiVFAWhcMo5QyTKF1Y6d39bnPR2F": "Changelly",
-    "AJbmGnDAx9y91MQCDApyaqZhn6fBvYX9iJ": "Cryptopia",
-    "AewxfHQobSc49a4radHp74JZCGP8LRe4xA": "Genesis Wallet",
-    "AcVHEfEmFJkgoyuNczpgyxEA3MZ747DRAu": "Livecoin",
-    "ARXhacG5MPdT1ehWPTPo8jtfC5NrS29eKS": "OKEx",
-    "ANQftoXeWoa9ud9q9dd2ZrUpuKinpdejAJ": "Upbit"
+    
   }
 }

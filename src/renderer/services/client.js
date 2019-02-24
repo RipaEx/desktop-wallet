@@ -1,4 +1,4 @@
-import ApiClient from '@arkecosystem/client'
+import ApiClient from '@ripaex/client'
 import { crypto, transactionBuilder } from '@arkecosystem/crypto'
 import axios from 'axios'
 import { castArray, chunk, orderBy } from 'lodash'
