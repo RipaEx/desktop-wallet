@@ -9,6 +9,10 @@
 ## Download
 [Latest Release](https://github.com/ripaex/desktop-wallet/releases)
 
+## Features
+All Your favourite DPOS coins in one place
+![MultiNetwork](./multi_network.png)
+
 ## Translations
 
 Translations are part of our [ARK Development and Security Bounty Program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879).
