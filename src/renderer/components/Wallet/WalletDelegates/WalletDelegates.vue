@@ -106,7 +106,7 @@ export default {
       page: 1,
       limit: 51,
       sort: {
-        field: 'rank',
+        field: 'rate',
         type: 'asc'
       }
     }

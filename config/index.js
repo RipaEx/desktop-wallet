@@ -1,20 +1,32 @@
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://www.ripaex.com',
   transactionExpiryMinutes: 45
 }
 
 exports.NETWORKS = [
   require('./networks/mainnet.json'),
-  require('./networks/devnet.json')
+  require('./networks/devnet.json'),
+  require('./networks/mainnet_ark.json'),
+  require('./networks/devnet_ark.json'),
+  require('./networks/mainnet_kapu.json'),
+  require('./networks/mainnet_qredit.json'),
+  require('./networks/mainnet_phantom.json')
 ]
 
 exports.PEERS = {
-  'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json')
+  'xpx.mainnet': require('./peers/mainnet.json'),
+  'xpx.devnet': require('./peers/devnet.json'),
+  'ark.mainnet': require('./peers/mainnet_ark.json'),
+  'ark.devnet': require('./peers/devnet_ark.json'),
+  'kapu.mainnet': require('./peers/mainnet_kapu.json'),
+  'qredit.mainnet': require('./peers/mainnet_qredit.json'),
+  'phantom.mainnet': require('./peers/mainnet_phantom.json')
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+//  rssUrl: 'http://createfeed.fivefilters.org/extract.php?url=https://steemit.com/@ripaex&in_id_or_class=articles__h2+entry-title&url_contains='
+  rssUrl1: 'http://fetchrss.com/rss/5c96165e8a93f817468b45685c9621288a93f83b3e8b4567.xml',
+  rssUrl2: 'https://medium.com/feed/ripaexchange'
 }
 
 exports.I18N = {
@@ -34,7 +46,8 @@ exports.BIP39 = {
     'italian',
     'japanese',
     'korean',
-    'spanish'
+    'spanish',
+    'italian'
   ]
 }
 

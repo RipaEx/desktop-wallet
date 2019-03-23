@@ -1,9 +1,9 @@
 {
-  "id": "ark.devnet",
-  "name": "ARK Devnet",
-  "title": "ARK Devnet",
-  "server": "https://dexplorer.ark.io:8443",
-  "description": "The ARK Devnet is only used for R&D by engineers.",
+  "id": "xpx.devnet",
+  "name": "XPX Devnet",
+  "title": "XPX Devnet",
+  "server": "https://api.devnet.ripaex.com",
+  "description": "RIPAEX Devnet is only used for R&D by engineers.",
   "imagePath": "networks/ark.devnet.svg",
   "apiVersion": 2,
   "slip44": "1",
@@ -46,16 +46,16 @@
     }
   ],
   "constants": {
-    "activeDelegates": 51,
+    "activeDelegates": 101,
     "epoch": "2017-03-21T13:00:00.000Z"
   },
-  "nethash": "2a44f340d76ffc3df204c5f38cd355b7496c9065a1ade2ef92071436bd72e867",
-  "explorer": "https://dexplorer.ark.io",
-  "token": "DARK",
-  "subunit": "darktoshi",
-  "symbol": "DѦ",
+  "nethash": "",
+  "explorer": "https://explorer.devnet.ripaex.com",
+  "token": "DXPX",
+  "subunit": "arktoshi",
+  "symbol": "D₱",
   "fractionDigits": 8,
-  "version": 30,
-  "wif": 170,
+  "version": 75,
+  "wif": 186,
   "knownWallets": {}
 }

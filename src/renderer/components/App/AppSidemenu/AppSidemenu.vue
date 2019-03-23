@@ -14,10 +14,10 @@
       <RouterLink
         :title="$t('APP_SIDEMENU.DASHBOARD')"
         :to="{ name: 'dashboard' }"
-        class="AppSidemenu__logo bg-red hover:opacity-85 flex justify-center items-center"
+        class="AppSidemenu__logo bg-blue-lightest hover:opacity-85 flex justify-center items-center"
         @click.native="redirect('dashboard')"
       >
-        <img src="@/assets/images/ark-logo.png">
+        <img src="@/assets/images/ripaex-logo.png">
       </RouterLink>
 
       <div class="AppSidemenu__container__scrollable flex-1 overflow-y-auto flexify justify-between bg-theme-feature">

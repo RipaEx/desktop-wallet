@@ -20,9 +20,11 @@ export default {
    * @param {String} url
    * @return {Array} array of items of the feed
    */
-  async fetchItems (url) {
-    const feed = await this.fetchAndParse(url)
+  async fetchItems (url1, url2) {
+    const feed1 = await this.fetchAndParse(url1)
+    const feed2 = await this.fetchAndParse(url2)
 
-    return feed.items
+    var result = feed1.items.concat(feed2.items)
+    return result
   }
 }

@@ -303,8 +303,13 @@ export default {
       }
 
       const networkLookup = {
-        'ark.mainnet': 'mainnet',
-        'ark.devnet': 'devnet'
+        'xpx.mainnet': 'mainnet',
+        'xpx.devnet': 'devnet',
+        'ark.mainnet': 'mainnet_ark',
+        'ark.devnet': 'devnet_ark',
+        'kapu.mainnet': 'mainnet_kapu',
+        'qredit.mainnet': 'mainnet_qredit',
+        'phantom.mainnet': 'mainnet_phantom'
       }
       let peers = await this._vm.$client.fetchPeers(networkLookup[network.id], getters['all']())
       if (peers.length) {

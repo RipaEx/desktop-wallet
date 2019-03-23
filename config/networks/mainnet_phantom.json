@@ -1,0 +1,63 @@
+{
+  "id": "phantom.mainnet",
+  "name": "PHANTOM",
+  "title": "PHANTOM",
+  "server": "https://explorer.phantom.org:8443",
+  "description": "The PHANTOM Mainnet",
+  "imagePath": "networks/phantom.mainnet.svg",
+  "apiVersion": 2,
+  "slip44": "111",
+  "market": {
+    "enabled": false,
+    "ticker": "XPH"
+  },
+  "feeStatistics": [
+    {
+      "type": 0,
+      "fees": {
+        "avgFee": 100000000,
+        "maxFee": 100000000,
+        "minFee": 100000000
+      }
+    },
+    {
+      "type": 1,
+      "fees": {
+        "avgFee": 5000000000,
+        "maxFee": 5000000000,
+        "minFee": 5000000000
+      }
+    },
+    {
+      "type": 2,
+      "fees": {
+        "avgFee": 25000000000,
+        "maxFee": 25000000000,
+        "minFee": 25000000000
+      }
+    },
+    {
+      "type": 3,
+      "fees": {
+        "avgFee": 1000000000,
+        "maxFee": 1000000000,
+        "minFee": 1000000000
+      }
+    }
+  ],
+  "constants": {
+    "activeDelegates": 51,
+    "epoch": "2019-01-03T12:00:00.000Z"
+  },
+  "nethash": "63b3351133e5721c199594c9d4f0e0e57adc5554216a390d3ea77c38366d01c9",
+  "explorer": "http://explorer.phantom.org",
+  "token": "PHANTOM",
+  "subunit": "phantomtoshi",
+  "symbol": "ⓟ",
+  "fractionDigits": 8,
+  "version": 55,
+  "wif": 170,
+  "knownWallets": {
+    "PUGcQvxYfDNsXeBE1DMbdyaPh5Qp8Sxiq2": "Genesis Wallet"
+  }
+}

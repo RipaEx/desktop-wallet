@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex wrap">
     <SelectionNetworkButton
       v-for="network in availableNetworks"
       :key="network.id"
@@ -44,7 +44,7 @@ import { pullAllBy } from 'lodash'
 export default {
   name: 'SelectionNetwork',
 
-  maxItems: 2,
+  maxItems: 9,
   buttonClasses: '',
 
   components: {

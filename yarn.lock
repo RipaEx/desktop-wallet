@@ -12,16 +12,6 @@
   resolved "https://registry.yarnpkg.com/7zip/-/7zip-0.0.6.tgz#9cafb171af82329490353b4816f03347aa150a30"
   integrity sha1-nK+xca+CMpSQNTtIFvAzR6oVCjA=
 
-"@arkecosystem/client@^0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/client/-/client-0.1.20.tgz#950d0e451521299f4f91d08b6e75de57ba8e5dfd"
-  integrity sha512-ka6y2pELzxcpn2dJf0+JXNBeOb7RY3gjxneIhcCGbUDQIsRzsxxDRGzDXs52h4xAS8V+mKOFDaU44bmHnnQLJA==
-  dependencies:
-    axios "^0.18.0"
-    lodash.clonedeep "^4.5.0"
-    lodash.orderby "^4.6.0"
-    lodash.shuffle "^4.2.0"
-
 "@arkecosystem/crypto@^0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-0.2.5.tgz#694acdcb088c8334dbc923bb4498a7b75ef8715a"
@@ -683,6 +673,16 @@
   integrity sha512-L34TG1Ss7goRB+5BxtvBwUuu0CmDSIxS33oUqkpEy6rCs31k7XicV48iUGAnRnt8hNY2DvJ9WFyaOroUE9h6wQ==
   dependencies:
     events "^3.0.0"
+
+"@ripaex/client@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@ripaex/client/-/client-0.1.23.tgz#e638c2c4dabf14c1157e8393aefc3bcd0b526291"
+  integrity sha512-5Yjhp21U0HJL3mHwFAy5of/cCAXZ+akyIJP1HQPSfn4tKkh/5yJDTHKRqg3d0VBx3WMiZvaJ5PEslUq4Fg7PkQ==
+  dependencies:
+    axios "^0.18.0"
+    lodash.clonedeep "^4.5.0"
+    lodash.orderby "^4.6.0"
+    lodash.shuffle "^4.2.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
