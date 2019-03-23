@@ -13,6 +13,7 @@ class CryptoCompare {
    * @return {(Object|null)} Return API response data or null on failure
    */
   async fetchMarketData (token) {
+    if (token === 'XPX') token = 'RIPAX'
     const params = {
       fsyms: token,
       tsyms: keys(MARKET.currencies).join(',')

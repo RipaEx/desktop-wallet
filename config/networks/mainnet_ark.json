@@ -3,7 +3,7 @@
   "name": "ARK Mainnet",
   "title": "ARK Mainnet",
   "server": "https://explorer.ark.io:8443",
-  "description": "The ARK Mainnet should be chosen in most cases.",
+  "description": "The ARK Mainnet",
   "imagePath": "networks/ark.mainnet.svg",
   "apiVersion": 2,
   "slip44": "111",
