@@ -1,5 +1,5 @@
 exports.APP = {
-  website: 'https://ripaex.io',
+  website: 'https://www.ripaex.com',
   transactionExpiryMinutes: 45
 }
 
@@ -9,12 +9,14 @@ exports.NETWORKS = [
 ]
 
 exports.PEERS = {
-  'ripaex.mainnet': require('./peers/mainnet.json'),
-  'ripaex.devnet': require('./peers/devnet.json')
+  'xpx.mainnet': require('./peers/mainnet.json'),
+  'xpx.devnet': require('./peers/devnet.json')
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: ''
+//  rssUrl: 'http://createfeed.fivefilters.org/extract.php?url=https://steemit.com/@ripaex&in_id_or_class=articles__h2+entry-title&url_contains='
+  rssUrl1: 'http://fetchrss.com/rss/5c96165e8a93f817468b45685c9621288a93f83b3e8b4567.xml',
+  rssUrl2: 'https://medium.com/feed/ripaexchange'
 }
 
 exports.I18N = {
@@ -27,6 +29,14 @@ exports.I18N = {
 exports.BIP39 = {
   defaultLanguage: 'english',
   languages: [
+    'chinese_simplified',
+    'chinese_traditional',
+    'english',
+    'french',
+    'italian',
+    'japanese',
+    'korean',
+    'spanish',
     'italian'
   ]
 }

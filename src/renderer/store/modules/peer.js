@@ -303,8 +303,8 @@ export default {
       }
 
       const networkLookup = {
-        'ripaex.mainnet': 'mainnet',
-        'ripaex.devnet': 'devnet'
+        'xpx.mainnet': 'mainnet',
+        'xpx.devnet': 'devnet'
       }
       let peers = await this._vm.$client.fetchPeers(networkLookup[network.id], getters['all']())
       if (peers.length) {

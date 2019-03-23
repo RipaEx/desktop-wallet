@@ -674,10 +674,10 @@
   dependencies:
     events "^3.0.0"
 
-"@ripaex/client@^0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@ripaex/client/-/client-0.1.21.tgz#d76c7fd0fc40d1641b0cb35dbcdc037afe877ce2"
-  integrity sha512-xsbVUSWjSeDOdAxRsV9SOZO9rnkmfl8fiP/ywOny8qLn1K5irwB/t/4359V7PU2z1jQPbc+Jqro7fr51dcpTdQ==
+"@ripaex/client@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@ripaex/client/-/client-0.1.23.tgz#e638c2c4dabf14c1157e8393aefc3bcd0b526291"
+  integrity sha512-5Yjhp21U0HJL3mHwFAy5of/cCAXZ+akyIJP1HQPSfn4tKkh/5yJDTHKRqg3d0VBx3WMiZvaJ5PEslUq4Fg7PkQ==
   dependencies:
     axios "^0.18.0"
     lodash.clonedeep "^4.5.0"

@@ -121,7 +121,7 @@ export default {
 
   methods: {
     getNetworks () {
-      const defaultNetworkIds = ['ripaex.mainnet', 'ripaex.devnet']
+      const defaultNetworkIds = ['xpx.mainnet', 'xpx.devnet']
 
       this.networks = Object.values(this.$store.getters['network/all']).map(network => {
         return {

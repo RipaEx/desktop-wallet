@@ -137,14 +137,14 @@ export default class ClientService {
    * @param {Object} [query]
    * @param {Number} [query.page=1]
    * @param {Number} [query.limit=51]
-   * @param {String} [query.orderBy='rank:asc']
+   * @param {String} [query.orderBy='rate:asc']
    * @return {Object[]}
    */
   async fetchDelegates (options = {}) {
     const network = store.getters['session/network']
     options.page || (options.page = 1)
     options.limit || (options.limit = network.constants.activeDelegates)
-    options.orderBy || (options.orderBy = 'rank:asc')
+    options.orderBy || (options.orderBy = 'rate:asc')
 
     let totalCount = 0
     let delegates = []

@@ -1,33 +1,13 @@
 # RipaEX Desktop Wallet
 
-![RipaEX Desktop Wallet](./banner.png)
+![RipaEX Desktop Wallet](./banner_medium_desktop.jpg)
 
 [![Build Status](https://badgen.now.sh/circleci/github/ripaex/desktop-wallet)](https://circleci.com/gh/ripaex/desktop-wallet)
 [![Latest Version](https://badgen.now.sh/github/release/RipaEX/desktop-wallet)](https://github.com/ripaex/desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Download
-[Latest Release](https://github.com/ripaex/ark-desktop/releases)
-
-## Installing via Package Managers
-
-### Arch Linux
-
-Install via [AUR](https://aur.archlinux.org/packages/ark-desktop):
-
-> Manjaro
-
-```shell
-pamac build ark-desktop
-```
-
-### Mac OS X
-
-Install via [Homebrew](https://brew.sh/):
-
-```shell
-brew cask install ark-desktop-wallet
-```
+[Latest Release](https://github.com/ripaex/desktop-wallet/releases)
 
 ## Translations
 
@@ -148,8 +128,9 @@ If you discover a security vulnerability within this project, please send an e-m
  - [Juan A. Martín](https://github.com/j-a-m-l)
  - [Lúcio Rubens](https://github.com/luciorubeens)
  - [Mario Vega](https://github.com/mvega3)
+ - [G. Silvestri](https://github.com/gsilvestri)
  - [All Contributors](../../contributors)
 
 ## License
 
-[MIT](LICENSE) © [RipaEX](https://ripaex.io)
+[MIT](LICENSE) © [RipaEX](https://ripaex.com)

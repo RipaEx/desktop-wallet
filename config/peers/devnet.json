@@ -1,8 +1,8 @@
 [
-    {
-      "ip": "51.15.46.213",
-      "port": "7501",
-      "isHttps": false,
-      "version": "2"
-    }
-  ]
+  {
+    "ip": "51.15.46.213",
+    "port": "7502",
+    "isHttps": false,
+    "version": "2"
+  }
+]

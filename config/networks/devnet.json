@@ -1,7 +1,7 @@
 {
-  "id": "ripaex.devnet",
-  "name": "RIPAEX Devnet",
-  "title": "RIPAEX Devnet",
+  "id": "xpx.devnet",
+  "name": "XPX Devnet",
+  "title": "XPX Devnet",
   "server": "https://api.devnet.ripaex.com",
   "description": "RIPAEX Devnet is only used for R&D by engineers.",
   "imagePath": "networks/ripaex.devnet.svg",
@@ -52,10 +52,10 @@
   "nethash": "",
   "explorer": "https://explorer.devnet.ripaex.com",
   "token": "DXPX",
-  "subunit": "ripaextoshi",
+  "subunit": "arktoshi",
   "symbol": "D₱",
   "fractionDigits": 8,
-  "version": "0x4B",
-  "wif": "0xba",
+  "version": 75,
+  "wif": 186,
   "knownWallets": {}
 }
