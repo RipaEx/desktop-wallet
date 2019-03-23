@@ -4,7 +4,7 @@
   "title": "XPX Devnet",
   "server": "https://api.devnet.ripaex.com",
   "description": "RIPAEX Devnet is only used for R&D by engineers.",
-  "imagePath": "networks/ripaex.devnet.svg",
+  "imagePath": "networks/ark.devnet.svg",
   "apiVersion": 2,
   "slip44": "1",
   "market": {

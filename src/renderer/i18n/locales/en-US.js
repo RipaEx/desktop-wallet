@@ -209,7 +209,7 @@ export default {
   },
 
   APP_FOOTER: {
-    TEXT: 'Made with ♥ by RipaEX'
+    TEXT: 'Copyright (c) 2019 RIPA'
   },
 
   APP_SIDEMENU: {

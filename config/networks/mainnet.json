@@ -4,7 +4,7 @@
   "title": "XPX Mainnet",
   "server": "https://api.v2.ripaex.com/",
   "description": "XPX Mainnet should be chosen in most cases.",
-  "imagePath": "networks/xpx.png",
+  "imagePath": "networks/xpx.mainnet.svg",
   "apiVersion": 2,
   "slip44": "111",
   "market": {

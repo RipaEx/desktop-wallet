@@ -5,12 +5,22 @@ exports.APP = {
 
 exports.NETWORKS = [
   require('./networks/mainnet.json'),
-  require('./networks/devnet.json')
+  require('./networks/devnet.json'),
+  require('./networks/mainnet_ark.json'),
+  require('./networks/devnet_ark.json'),
+  require('./networks/mainnet_kapu.json'),
+  require('./networks/mainnet_qredit.json'),
+  require('./networks/mainnet_phantom.json')
 ]
 
 exports.PEERS = {
   'xpx.mainnet': require('./peers/mainnet.json'),
-  'xpx.devnet': require('./peers/devnet.json')
+  'xpx.devnet': require('./peers/devnet.json'),
+  'ark.mainnet': require('./peers/mainnet_ark.json'),
+  'ark.devnet': require('./peers/devnet_ark.json'),
+  'kapu.mainnet': require('./peers/mainnet_kapu.json'),
+  'qredit.mainnet': require('./peers/mainnet_qredit.json'),
+  'phantom.mainnet': require('./peers/mainnet_phantom.json')
 }
 
 exports.ANNOUNCEMENTS = {

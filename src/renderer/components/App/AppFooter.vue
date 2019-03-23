@@ -16,7 +16,7 @@ export default {
 
   data: () => ({
     text: '',
-    url: 'https://ripaex.io'
+    url: 'https://www.ripaex.com'
   }),
 
   created () {

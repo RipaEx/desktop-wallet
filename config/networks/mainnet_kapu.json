@@ -1,0 +1,63 @@
+{
+  "id": "kapu.mainnet",
+  "name": "KAPU Mainnet",
+  "title": "KAPU Mainnet",
+  "server": "http://51.15.136.166:9702",
+  "description": "The KAPU Mainnet should be chosen in most cases.",
+  "imagePath": "networks/kapu.mainnet.svg",
+  "apiVersion": 2,
+  "slip44": "111",
+  "market": {
+    "enabled": true,
+    "ticker": "KAPU"
+  },
+  "feeStatistics": [
+    {
+      "type": 0,
+      "fees": {
+        "avgFee": 10000000,
+        "maxFee": 10000000,
+        "minFee": 10000000
+      }
+    },
+    {
+      "type": 1,
+      "fees": {
+        "avgFee": 500000000,
+        "maxFee": 500000000,
+        "minFee": 500000000
+      }
+    },
+    {
+      "type": 2,
+      "fees": {
+        "avgFee": 2500000000,
+        "maxFee": 2500000000,
+        "minFee": 2500000000
+      }
+    },
+    {
+      "type": 3,
+      "fees": {
+        "avgFee": 100000000,
+        "maxFee": 100000000,
+        "minFee": 100000000
+      }
+    }
+  ],
+  "constants": {
+    "activeDelegates": 51,
+    "epoch": "2017-03-21T13:00:00.000Z"
+  },
+  "nethash": "a28cfbd5475471d9c23186976b17a482138de2c6edfc7daf0919a159d2c524e6",
+  "explorer": "https://explorer.kapu.one",
+  "token": "KAPU",
+  "subunit": "arktoshi",
+  "symbol": "ʞ",
+  "fractionDigits": 8,
+  "version": 45,
+  "wif": 170,
+  "knownWallets": {
+    "KDWdr9yLfnCA2doT71qAP7uLFM6uiXgg8n": "Reserve"
+  }
+}
